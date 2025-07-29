@@ -74,6 +74,7 @@ def deleteNode(node,data):
         
         node.data= findMin(node.right).data
         node.right=deleteNode(node.right,node.data)
+    return node    
 
 
 
